@@ -1,0 +1,12 @@
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\bin\Release\Quiz.exe
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\bin\Release\Quiz.pdb
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Form1.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Junior_High.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Junior_Medium.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Properties.Resources.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.High.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Medium.resources
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.csproj.GenerateResource.Cache
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.exe
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.pdb
+C:\Users\Mahdev\documents\visual studio 2010\Projects\Quiz\Quiz\obj\x86\Release\Quiz.Answer_Key.resources

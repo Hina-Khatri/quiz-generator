@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B5DFB2C4-1CC2-4689-8C57-E1CCA05BF87E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quiz</RootNamespace>
+    <AssemblyName>Quiz</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Junior_Answer_Key.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Junior_Answer_Key.Designer.cs">
+      <DependentUpon>Junior_Answer_Key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="J_High.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="J_High.Designer.cs">
+      <DependentUpon>J_High.cs</DependentUpon>
+    </Compile>
+    <Compile Include="J_Medium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="J_Medium.Designer.cs">
+      <DependentUpon>J_Medium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senior_Answer_Key.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senior_Answer_Key.Designer.cs">
+      <DependentUpon>Senior_Answer_Key.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Junior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Junior.Designer.cs">
+      <DependentUpon>Junior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senior.Designer.cs">
+      <DependentUpon>Senior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Senior_Junior_Check.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Senior_Junior_Check.Designer.cs">
+      <DependentUpon>Senior_Junior_Check.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="S_High.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="S_High.Designer.cs">
+      <DependentUpon>S_High.cs</DependentUpon>
+    </Compile>
+    <Compile Include="S_Medium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="S_Medium.Designer.cs">
+      <DependentUpon>S_Medium.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Junior_Answer_Key.resx">
+      <DependentUpon>Junior_Answer_Key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="J_High.resx">
+      <DependentUpon>J_High.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="J_Medium.resx">
+      <DependentUpon>J_Medium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Senior_Answer_Key.resx">
+      <DependentUpon>Senior_Answer_Key.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Junior.resx">
+      <DependentUpon>Junior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Senior.resx">
+      <DependentUpon>Senior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Senior_Junior_Check.resx">
+      <DependentUpon>Senior_Junior_Check.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="S_High.resx">
+      <DependentUpon>S_High.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="S_Medium.resx">
+      <DependentUpon>S_Medium.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
